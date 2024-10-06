@@ -1,16 +1,12 @@
 # Bibliotech
 
-Bibliotech é um sistema de gerenciamento de biblioteca desenvolvido com Django e Django REST Framework. O projeto permite o cadastro de livros, gerenciamento de usuários e controle de empréstimos, proporcionando uma maneira simples e eficiente de gerenciar uma biblioteca.
+Bibliotech é um sistema de gerenciamento de biblioteca desenvolvido com Django e Django REST Framework. O projeto permite o cadastro de livros e controle de empréstimos, proporcionando uma maneira simples e eficiente de gerenciar uma biblioteca.
 
 ## Funcionalidades
 
 - **Gerenciamento de Livros**
   - Cadastrar, listar, atualizar e deletar livros.
   - Atributos dos livros: título, autor, ano de publicação, gênero, ISBN, quantidade disponível, número de páginas e editora.
-
-- **Gerenciamento de Usuários**
-  - Cadastro de usuários com diferentes tipos (aluno, professor, administrador).
-  - Autenticação de usuários para acesso às funcionalidades da biblioteca.
 
 - **Empréstimos**
   - Registro de empréstimos e devoluções de livros.
