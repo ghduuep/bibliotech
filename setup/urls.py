@@ -1,11 +1,10 @@
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
-from biblioteca.views import LivroViewSet, UsuarioViewSet, EmprestimoViewSet
+from biblioteca.views import LivroViewSet, EmprestimoViewSet
 
 router = routers.DefaultRouter()
 router.register('livros', LivroViewSet, basename='Livros')
-router.register('usuarios', UsuarioViewSet, basename='Usuarios')
 router.register('emprestimos', EmprestimoViewSet, basename='Emprestimos')
 
 urlpatterns = [
